@@ -425,6 +425,217 @@ footer .copyright-text {
 ******  CSS MEDIA QUERIES ********* 
 ************************************/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Start Screen greater than 1440
+*/
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1180px;
+  }
+
+  body {
+    padding-top: 70px;
+  }
+
+  header {
+    height: 70px;
+  }
+
+  .hero-content h1 {
+    font-size: 44px;
+    letter-spacing: 1.1px;
+    line-height: 50px;
+    margin-bottom: 12px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+
+  .hero-content button {
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+  }
+
+  section.best-sellers {
+    padding-top: 70px;
+  }
+
+  section.best-sellers h2 {
+    line-height: 38px;
+    margin: 0 0 16px 0;
+  }
+
+  section.best-sellers .product-slider {
+    margin-top: 70px;
+  }
+
+  section.best-sellers .product-slider .product .product-info .categories {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+  }
+
+  section.best-sellers .product-slider .product .product-info .title {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+  }
+
+  section.best-sellers .product-slider .product .product-info .price {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    margin-bottom: 12px;
+  }
+
+  section.best-sellers
+    .product-slider
+    .product
+    .product-info
+    .price
+    .original-price {
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+    display: block;
+    line-height: 16px;
+  }
+
+  section.best-sellers .product-slider .product .product-info button {
+    height: 40px;
+    width: 180px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+  }
+
+  section.news-letter {
+    background-color: rgba(200, 200, 200, 0.18);
+    max-width: 955px;
+    text-align: center;
+    padding: 72px 0;
+    margin: 80px auto;
+  }
+
+  section.news-letter h3 {
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 42px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  section.news-letter p {
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  section.news-letter form {
+    display: flex;
+    justify-content: center;
+  }
+
+  section.news-letter form input {
+    height: 50px;
+    width: 326px;
+    max-width: 80%;
+    box-sizing: border-box;
+    border-radius: 60px 0 0 60px;
+    border: 1px solid #3e3e3e;
+    border-right: none;
+    color: #3e3e3e;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    padding-left: 22px;
+  }
+
+  section.news-letter form button {
+    height: 50px;
+    width: 145px;
+    max-width: 20%;
+    box-sizing: border-box;
+    border-radius: 0 60px 60px 0;
+    border: 1px solid #3e50e5;
+    background-color: #3e50e5;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+  }
+  section.news-letter form button:hover {
+    background-color: white;
+    color: #3e50e5;
+    cursor: pointer;
+    border: 1px solid #3e3e3e;
+  }
+
+  footer .bottom-nav {
+    padding: 50px 0;
+  }
+
+  footer .bottom-nav .container {
+    max-width: 90%;
+  }
+
+  footer .bottom-nav ul li a {
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 22px;
+  }
+
+  footer .bottom-nav ul li.list-title {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+
+  footer .copyright-text {
+    height: 50px;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .sidenav{
+    display: none;
+  }
+}
+
+
+/*
+End for Screen greater than 1440
+*/
+
+
+
+
+
+
 /* Start of Design for Small Desktops */
 @media screen and (max-width: 1440px) {
   .container {
